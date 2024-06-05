@@ -728,7 +728,7 @@ outline: transparent;
 }
 
 .modal-input:focus + .modal-icon {
-    border-color: #4d5ae5;
+    fill:  #4d5ae5;
 }
 
 .modal-field-wrap {
