@@ -765,3 +765,38 @@ position: relative;
     clip: rect(0, 0, 0, 0);
     border: 0;
 }
+
+.footer-form {
+    display: flex;
+    
+    
+  }
+  
+  .footer-input {
+    border: 1.5px solid rgba(255, 255, 255, 0.15);
+    border-radius: 30px;
+    width: 313px;
+    height: 52px;
+    padding: 0 24px;
+    background-color: transparent;
+    color: #ffffff;
+    
+  }
+
+  
+  
+  .footer-input::placeholder {
+    font-size: 18px;
+    letter-spacing: -0.02em;
+    color: rgba(255, 255, 255, 0.3);
+  }
+  .footer-form-btn {
+    font-weight: 600;
+    font-size: 14px;
+    color: #fff;
+    padding: 8px 24px;
+    border-radius: 4px;
+    background-color: #4d5ae5;;
+    border: none;
+    margin-left: 8px;
+  }
