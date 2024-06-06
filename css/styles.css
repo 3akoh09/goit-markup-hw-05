@@ -828,13 +828,10 @@ margin-bottom: 16px;
     line-height: 1.17;
     letter-spacing: 0.04em; 
     color:  #8e8f99;
-    display: inline-flex;
-    align-items: center;
     cursor: pointer;
 }
 
 .modal-check-icon {
-    display: block;
     display: inline-flex;
     align-items: center; 
     justify-content: center;
@@ -844,6 +841,7 @@ margin-bottom: 16px;
     border-radius: 2px; 
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     fill: transparent; 
+    margin-right: 8px;
 }
 
 
@@ -853,18 +851,26 @@ margin-bottom: 16px;
     fill: var(--icon-color, #F4F4FD);
 }
 
+.modal-check:checked + .modal-check-text .privacy-check-icon {
+    display: block; /* Make sure the check mark is displayed */
+}
 .privacy-check-icon {
+    display: none; /* Initially hide the check mark */
     width: 10px; /* Розмір іконки */
     height: 8px;
+    fill: #F4F4FD; /* Color of the check mark */
 }
 
 a.privacy-policy-link {
     color: var(--link-color, #4d5ae5);
+    text-decoration: underline;
+    margin-left: 5px;
+    
 }
 
-.modal-check visually-hidden
 
-.visually-hidden {
+
+.modal-check .visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
