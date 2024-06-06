@@ -711,8 +711,8 @@ color: #2e2f42;
     border: none;
 }
 
-.modal-close:hover .backdrop-modal-icon,
-.modal-close:focus .backdrop-modal-icon {
+.modal-close:hover .modal-close-icon,
+.modal-close:focus .modal-close-icon {
     fill: #ffffff;
 }
 
