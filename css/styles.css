@@ -733,6 +733,11 @@ color: #2e2f42;
     margin-bottom: 16px;
 }
 
+span {
+    display: inline-flex;
+}
+
+
 textarea.modal-text {
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
