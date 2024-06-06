@@ -910,7 +910,7 @@ svg {
     color: #ffffff;
 }
 
-.footer-form {
+.footer-form-email {
     display: flex;
     gap: 24px;
 }
