@@ -899,9 +899,9 @@ svg {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+    
 
-.subscribe-paragraph {
+.subscribe-paragraph-title {
     margin-bottom: 16px;
     font-weight: 500;
     font-size: 16px;
