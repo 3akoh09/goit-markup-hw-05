@@ -726,7 +726,12 @@ color: #2e2f42;
 }
 
 .modal-field {
-    margin-bottom: 8px;
+    margin-bottom: 24px;
+}
+
+textarea.modal-text {
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 4px;
 }
 
 .modal-label {
@@ -738,6 +743,10 @@ letter-spacing: 0.04em;
 color: #8e8f99;
 line-height: 1.17;
 
+}
+
+.modal-check {
+    display: none;
 }
 
 .modal-input {
@@ -835,10 +844,23 @@ margin-bottom: 16px;
     fill: transparent; 
 }
 
+
+.modal-check:checked + .modal-check-text .modal-check-icon {
+    background-color: var(--background-color, #404bbf);
+    border: none;
+    fill: var(--icon-color, #F4F4FD);
+}
+
 .privacy-check-icon {
     width: 10px; /* Розмір іконки */
     height: 8px;
 }
+
+a.privacy-policy-link {
+    color: var(--link-color, #4d5ae5);
+}
+
+.modal-check visually-hidden
 
 .visually-hidden {
     position: absolute;
